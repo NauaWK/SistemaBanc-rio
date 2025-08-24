@@ -53,10 +53,7 @@ public class Main {
             ContaBanco contaPoupanca = new ContaPoupanca(numConta, tipoConta, nomeDono, saldo);
             System.out.println("Conta criada com sucesso!\nStatus da sua conta: ");
             contaPoupanca.verStatus();
-        }
-        
-        
-        
+        }        
     }
 }
 
